@@ -1,24 +1,43 @@
-Challenge: The Call Stack
+# Assignment Overview: UI Challenge 2
+### DUE:
 
-## Submission Instructions
+## Custom Form Elements Using Sprites
 
-- Complete your Feature Tasks for the day (below)
-- Submit your annotated code, call stack drawing, and web request-response cycle (WRRC) diagram to your instructor or designated TA
-- On Canvas, submit a comment which includes the following:
-  - A question within the context of today's lab assignment
-  - An observation about the lab assignment, or related 'Ah-hah!' moment
-  - How long you spent working on this assignment
+For this assignment you will be building a series of custom form elements, some of which will require the use of a provided sprite-sheet.
 
-## Feature Tasks
+This is an independent project, but your are free to collaborate with your classmates.
 
-- Print your `server.js` file from your fork of your lab 9 repository. Make sure the lines of code are large enough to read and are only printed on one side of the paper. Tape the paper together to make one large "scroll" of your code.
-- You and your partner(s) will be taking notes, building the call stack, and drawing a WRRC diagram as you complete this exercise. Be creative - utilize colored pens or pencils, symbols, and so on, but do not feel like you need to be overly artistic. You may use scratch paper or the whiteboard, but do not use online tools such as a word processor or a drawing application. You will be submitting your printed-out code, notes, and diagram(s) as your lab submission, so be prepared to take a picture of the whiteboard, your notes, etc. so that your TA can grade your work. Make sure your handwriting and drawings are legible.
-- If you find a bug in the code, make a note but proceed as if the code were fully functional.
-- Plan to spend approximately two hours on one partners' `server.js` code, then switch roles.
-- When you are reviewing your own code:
-  - You are in charge of drawing a WRRC diagram of the components involved. Your diagram must include the following terms: request, response, client, query, server, database, model, view, controller, port
-  - Indicate the line(s) of code from your `server.js` file that corresponds to each portion of the diagram
-- When you are reviewing your partner's code:
-  - You are in charge of tracing the order in which the code is executed. Write notes, numbering the steps, on the printed-out `server.js` file.
-  - Animate the call stack using Post-It notes, adding and removing functions as you trace the code execution. As appropriate, include the numbered step on the Post-It note.
-- After two hours have passed, switch roles and repeat these steps using your partner's code. Make sure to trace different portions of the code base.
+Limit yourself to three hours for this assignment.
+
+---
+
+**GitHub Repository & Project Setup**
+
+- Create a repository called ***ui-challenge-2*** for your work.
+- Submit a link to this repository in the corresponding Canvas assignment when you are finished.
+- Be sure to do your work in a non-master branch, and merge your work into `master` when finished.
+
+
+***PLAN YOUR WORK AND WORK YOUR PLAN***
+
+---
+
+**Assignment Overview**
+
+Sprites are used in web development to load multiple image resources while only needing a single HTTP request to retrieve a single resource. Take a look at this article for an overview:
+
+[CSS Sprites: What They Are, Why They're Cool, and How To Use Them](https://css-tricks.com/css-sprites/)
+
+This exercise is to give you some hands-on experience working with sprites in a very common use-case: custom styling of form elements.
+
+The instructions on the comp page say to do the styling with JavaScript; it is recommended that you work out the basics of the styling in CSS, ACP it, then refactor to having JS do the styling. Why do the styling with JS? Well, that's the challenge!
+
+---
+
+**Requirements**
+
+- Use good HTML structure to scaffold this site, of course, using semantic elements where possible.
+- If you want, use SMACSS-style modularity to organize your CSS; there are no specific requirements. Feel free to try an alternate system for organizing your CSS.
+- Style the page to reflect the comp image provided as closely as possible; but, feel free to leave out the paragraph of instructions.
+- You need not be concerned with responsiveness or mobile layout on this assignment.
+- There are no absolute right or wrong answers... just do your best.
