@@ -1,0 +1,85 @@
+body {
+  max-width: 600px;
+  padding: 20px 40px;
+
+}
+
+.sprite {
+  background: url('imgs/form-elements-sprite.png') no-repeat;
+}
+
+label, input {
+  font-family: sans-serif;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  padding-left: 0.5em;
+  width: 600px;
+  margin: 0.5em 0;
+  border: 1px solid #aaa;
+  font-size: 20px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+#error {
+  float: right;
+  color: red;
+  font-family: sans-serif;
+}
+
+.select-container {
+  margin-top: 3em;
+  width: 100%;
+}
+
+.select-container select {
+  margin: 0.5em 0;
+  width: 100%;
+  border: 1px solid #aaa;
+  font-size: 20px;
+  color: #aaa;
+  background-color: #fff;
+}
+
+#checkbox {
+  margin: 2em 0;
+}
+
+#input-checkbox {
+  display: none;
+}
+
+#checkbox input[type="checkbox"]:not(:checked) {
+  background-position: -158px -239px;
+  display: block;
+  height: 38px;
+  width: 38px;
+}
+
+#checkbox input[type="checkbox"]:checked {
+  background-position: -381px -239px;
+  display: block;
+  height: 38px;
+  width: 38px;
+}
+
+#radio {
+  margin: 2em 0;
+}
+
+#input-button {
+  width: 20%;
+}
+
+#input-button:hover {
+  color: #fff;
+  background-color: #000;
+}
